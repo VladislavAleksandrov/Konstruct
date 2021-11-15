@@ -1,0 +1,13 @@
+.footer {
+	height: 60px;
+	background: #171819;
+	text-align: center;
+}
+
+.footer__text {
+	font-size: 11px;
+	line-height: 13px;
+	letter-spacing: 0.84px;
+	color: #FFFFFF;
+	padding: 22px 0;
+}

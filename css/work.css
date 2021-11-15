@@ -1,0 +1,31 @@
+
+
+.work {
+	margin-top: 115px;
+	height: 499px;
+	background:url("../img/bg-end.jpg") no-repeat 50% 100%, linear-gradient(to bottom, transparent, rgba(0, 0, 0, 0.8));
+	background-size: cover;
+	text-align: center;
+
+}
+.work__title {
+	font-size: 30px;
+	line-height: 1.2;
+	letter-spacing: 0.15px;
+	color: #48555B;
+	padding-top: 120px;
+}
+
+.work__link {
+	display: inline-block;
+	font-size: 13px;
+	line-height: calc(15/13);
+	letter-spacing: 0.5px;
+	color: #FFFFFF;
+	height: 40px;
+	width: 150px;
+	background: #00A4E5;
+	text-decoration: none;
+	padding: 11px 0;
+	margin-top: 35px;
+}

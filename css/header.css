@@ -1,0 +1,37 @@
+.header {
+/*	margin: 0 auto;
+	width: 1438px;*/
+	height: 769px;
+	background: url("../img/bg.jpg") no-repeat #3A4F63;
+	background-size: cover;
+	background-position-y: 100%;
+	text-align: center;
+	color: white;
+}
+.header__logo {
+	padding-top: 42px;
+}
+
+.header__title {
+	margin-top: 317px;
+	font-family: 'Bebas Neue', cursive;
+	font-size: 60px;
+	line-height: calc(7/6);
+	font-weight: bold;
+	letter-spacing: 6px;
+}
+
+.header__description {
+	font-size: 16px;
+	line-height: calc(19/16);
+}
+
+.header__scroll {
+	display: block;
+	margin-top: 221px;
+	text-decoration: none;
+	color: white;
+	font-size: 11px;
+	line-height: calc(13/11);
+	letter-spacing: 4px;
+}

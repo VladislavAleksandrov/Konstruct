@@ -1,0 +1,78 @@
+.about {
+	margin-top: 58px;
+}
+
+.about__title {
+	font-size: 18px;
+	line-height: 21px;
+	text-align: center;
+	letter-spacing: 2px;
+	color: #48555B;
+	position: relative;
+}
+
+.about__title:after {
+	display: block;
+	content: '';
+	border-bottom: 2px solid #00A4E5;
+	width: 50px;
+	position: absolute;
+	top: 30px;
+	left: calc(50% - 25px);
+}
+
+.about__info {
+	display: flex;
+	justify-content: space-between;
+}
+
+.about__text-block {
+	max-width: 405px;
+	margin-top: 80px;
+	color: #48555B;
+}
+
+.about__history {
+	font-size: 20px;
+	line-height: calc(23/20);
+	font-weight: 700;
+	letter-spacing: 0.2px;
+}
+
+.about__some-text {
+	margin-top: 30px;
+	font-size: 13px;
+	line-height: calc(23/13);
+	letter-spacing: 0.1875px;
+}
+
+.about__image-block {
+	display: flex;
+	gap: 20px;
+	align-self: flex-end;
+}
+
+.about__plan {
+	background: url("../img/plan.jpg") no-repeat;
+}
+
+.about__manage {
+	background: url("../img/manage.jpg") no-repeat;
+}
+
+.about__build {
+	background: url("../img/build.jpg") no-repeat;
+}
+
+.about__image {
+	height: 224px;
+	width: 140px;
+	background-size: cover;
+	padding: 20px 0 0 20px;
+	color: white;
+	font-size: 24px;
+	line-height: calc(29/24);
+	letter-spacing: 0.1875px;
+	font-weight: 900;
+}
+
